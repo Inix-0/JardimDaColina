@@ -908,8 +908,10 @@
         font-size: 2rem;
       }
     }
-    @media (max-width: 400px) {
+    @media (max-width: 430px) {
       .hero-panel {
-        margin: 20px;
+        margin: 0 16px;
+        padding: 20px;
+        width: calc(100% - 32px);
       }
     }
